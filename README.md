@@ -45,7 +45,7 @@ complete text.
 Current Maintainers
 -------------------
 
-- [docwilmot](https://github.com/docwilmot)
+- Geoff St. Pierre [serundeputy](https://github.com/serundeputy)
 
 Credits
 -------
