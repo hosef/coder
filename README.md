@@ -1,6 +1,8 @@
 Coder Review
 ============
 
+[![Build Status](https://travis-ci.org/serundeputy/coder.svg?branch=1.x-1.x)](https://travis-ci.org/serundeputy/coder)
+
 This is a developer library that assists with code review so Backdrop code
 can maintain standards defined on https://api.backdropcms.org
 
