@@ -13,4 +13,4 @@ before_script:
 
 script:
   - ./vendor/bin/phpunit
-  - ./vender/bin/phpcs  
+  - ./vender/bin/phpcs --version 
