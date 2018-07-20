@@ -1,40 +1,37 @@
 Coder Review
 ============
 
-This is a developer Module that assists with code review so contributed modules
-can define additional review standards.
+This is a developer library that assists with code review so Backdrop code
+can maintain standards defined on https://api.backdropcms.org
 
 Built-in support for:
  - Backdrop Coding Standards - https://api.backdropcms.org/php-standards
  - Handle text in a secure fashion - https://api.backdropcms.org/securing-user-input
 
-Coder Sniffer
--------------
-
-See the README.txt file in the coder_sniffer directory.
-
-
 Installation
 ------------
 
-Copy coder.module to your module directory and then enable on the admin
-modules page.  Enable the modules that admin/config/development/coder/settings
-works on, then view the coder results page at coder.
+User composer to install:
 
+```bash
+composer require backdrop/coder
+```
+
+Running phpcs Code Checks
+-------------------------
+
+```bash
+./vendor/bin/phpcs --standard=./vendor/backdrop/coder/coder_sniffer/Backdrop path/to/code
+```
 
 Automated Testing (PHPUnit)
 ---------------------------
 
-Coder Sniffer comes with a PHPUnit test suite to make sure the sniffs work 
-correctly.
-Use Composer to install the dependencies:
+To execute the phpunit tests:
 
-  composer install
-
-Then execute the tests:
-
-  ./vendor/bin/phpunit
-
+```bash
+./vendor/bin/phpunit
+```
 
 License
 -------
